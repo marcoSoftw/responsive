@@ -129,12 +129,18 @@ body{
 
     width: 1%;
     height: 800px;
-
     display: table-cell;
      
 
 
-
+}
+.precio{
+	padding: 0;
+	background-color: orange;
+	font-size: 20px;
+	color: blue;
+	float: right;
+	
 }
 
 .img-contenido{
@@ -164,11 +170,10 @@ body{
 .link{
 
 	padding-bottom: 6px;
-
     list-style-type: none;
     text-align: center;
     color: black;
-    background-color: orange
+    background-color: orange;
 }
 
 
@@ -361,6 +366,12 @@ line-height: 1;
 padding: 20px 35px;
 text-decoration: none;
 text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
+
+}
+
+a.boton, a.boton2{
+
+text-decoration: none;
 
 }
 
@@ -660,8 +671,6 @@ font-size: 14px;
     font-size: 16px;
 }
 
-
-
 #totalTexto{
 
     font-size: 20px;
@@ -686,7 +695,7 @@ font-size: 14px;
 
 }
 #saldoTotalTexto{
-       font-size: 24px;
+       font-size: 20px;
 
 }
 #saldoTotal{
@@ -820,8 +829,9 @@ margin-left: 0px;
 
 }
 .imgCuenta{
-  width: 52px;
-  margin-top: -63px;
+  width: 50px;
+  height: 52px;
+  margin-top: -69px;
   margin-left: 80%;
 
 }

@@ -29,9 +29,9 @@
         {
             "img": "3.jpg", 
             "marca":"Intel",
-            "detalle":"Intel Core i7-4790 3.6Ghz 1150",
+            "detalle":"Procesador Intel Core i5-8400 2.8GHZ LGA 1151G8 6MB",
             "disponibilidad":"En Stock",
-            "precio": 295
+            "precio": 190
         },
         {
             "img": "4.jpg",
@@ -43,36 +43,36 @@
         {
             "img": "5.jpg",
             "marca":"Kingstom",
-            "detalle":"Memoria Kingston HyperX Fury DDR3 4gb 1600Mhz",
+            "detalle":"Memória Kingston HyperX Fury Black DDR4 4GB 2400MHz",
             "disponibilidad":"En Stock",
-            "precio": 32
+            "precio": 56
         },
         {
             "img": "6.jpg",
             "marca":"AMD",
-            "detalle":"AMD FX Series FX-8350 4.0Ghz 8X Black Edition",
+            "detalle":"Procesador AMD Ryzen R7-1700X 3.8GHz AM4 20MB",
             "disponibilidad":"En Stock",
-            "precio": 160
+            "precio": 370
         },
         {
            "img": "7.jpg",
-            "marca":"Kingston",
-            "detalle":"Memoria RAM 4gb 1600Mhz para notebook",
+            "marca":"Asus",
+            "detalle":"Placa Madre Asus Prime B250M-Plus con Soquete LGA 1151, compatible con los nuevos procesadores de Intel",
             "disponibilidad":"En Stock",
-            "precio": 30
+            "precio": 100
         },
      
         {
             "img": "8.jpg",
-            "marca":"Asus",
-            "detalle":"Notebook Asus UX310UA-GL310T i5/ 8GB/ 256SSD/ 13.3''",
+            "marca":"Gigabyte",
+            "detalle":"Placa Madre Gigabyte AB350-Gaming para AMD (AM4), compatible con los nuevos Ryzen",
             "disponibilidad":"En Stock",
-            "precio": 950
+            "precio": 115
         },
         {
             "img": "9.jpg",
             "marca":"HP",
-            "detalle":"Notebook HP 500gb y 8gb RAM",
+            "detalle":"Notebook HP X360 15-BK157CL Intel Core i5 2.5GHz / Memória 8GB / HD 500GB + SSD 8GB / 15.6 / Windows 10",
             "disponibilidad":"En Stock",
             "precio": 20000
         }

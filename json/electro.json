@@ -13,9 +13,9 @@
         {
             "img": "1.jpg",
             "marca":"LG",
-            "detalle":"TV LG 39'' con panel 1080p",
+            "detalle":"TV LG LED 49UF6400 4K 49'' con Webos",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 610
         },
                       
         {
@@ -23,28 +23,28 @@
             "marca":"Samsung",
             "detalle":"Heladera Samsung 530L RT-53H Inox",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 1330
         },
         {
             "img": "3.jpg",
-            "marca":"Cannon",
-            "detalle":"Camara profesional Cannon",
+            "marca":"Nikon",
+            "detalle":"Cámara Digital Nikon D5300 24.2MP ideal para fotográfos principiantes",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 510
         },   
          {
             "img": "4.jpg",
-            "marca":"WAP",
-            "detalle":"Aspiradora WAP GT Profi 20lts. 1600w",
+            "marca":"Bosch",
+            "detalle":"Bosch Relyy'y ProPower 2.0 Aspirador Trineo Sin Bolsa",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 220
           },		
          {
            "img": "5.jpg",
             "marca":"Goodweater",
             "detalle":"Split Goodweater 18.000 BTU",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 475
         },       
                       
         {
@@ -52,12 +52,12 @@
             "marca":"Midea",
             "detalle":"Congelador Midea 515lts 2 puertas",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 610
         },
         {
            "img": "7.jpg",
-            "marca":"Logitech",
-            "detalle":"Logitech G430 Gaming Surround Sound 7.1",
+            "marca":"Atlas",
+            "detalle":"Cocina Atlas Elegance 4H BL",
             "disponibilidad":"En Stock",
             "precio": 20000
         },
@@ -65,95 +65,17 @@
                     
              "img": "8.jpg",
             "marca":"Logitech",
-            "detalle":"Auricular Logitech",
+            "detalle":"Logitech G430 Gaming Surround Sound 7.1",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 88
         },
                       
          {
            "img": "9.jpg",
-            "marca":"Athletic",
-            "detalle":"Cinta Athletic p/caminar 16t",
+            "marca":"Tokyo",
+            "detalle":"Horno electrico Tokyo 36l T1587 2PL",
             "disponibilidad":"En Stock",
-            "precio": 20000
-        },   
-                      
-        {
-            "img": "10.jpg",
-            "marca":"LG",
-            "detalle":"TV LG 32lh510b 32'' con panel 1080p",
-            "disponibilidad":"En Stock",
-            "precio": 20000
-        },
-                      
-        {
-            
-            "img": "11.jpg",
-           "marca":"Samsung",
-            "detalle":"Galaxy S7-EDGE 64gb",
-            "disponibilidad":"En Stock",
-            "precio": 2550000
-            
-        },
-                      
-        {
-            
-            "img": "12.jpg",
-           "marca":"Samsung",
-            "detalle":"Galaxy S7-EDGE 64gb",
-            "disponibilidad":"En Stock",
-            "precio": 2550000
-            
-        },
-                      
-        {
-            
-            "img": "13.jpg",
-           "marca":"Samsung",
-            "detalle":"Galaxy S7-EDGE 64gb",
-            "disponibilidad":"En Stock",
-            "precio": 2550000
-            
-        },
-        {
-            
-            "img": "24.png",
-           "marca":"Samsung",
-            "detalle":"Galaxy S7-EDGE 64gb",
-            "disponibilidad":"En Stock",
-            "precio": 2550000
-            
-        },
-        {
-            "img": "21.jpg",
-           "marca":"Motorola",
-            "detalle":"Moto G4 con 16 gb, 16mpx",
-            "disponibilidad":"En Stock",
-            "precio": 1500000
-        },
-        {
-            "img": "17.jpg",
-            "marca":"Apple",
-            "detalle":"Iphone 7 con 128gb, 16mpx",
-            "disponibilidad":"En Stock",
-            "precio": 20000
-        },
-        {
-            "img": "23.png",
-            "marca": "Samsung",
-            "detalle": "Galaxy S7 16 gb, color dorado",
-            "disponibilidad": "En Stock",
-            "precio": 2000000
-            
-        },
-        
-       
-        {
-            "img": "22.jpg",
-           "marca":"Apple",
-            "detalle":"Iphone 5s con memoria interna de 16gb",
-            "disponibilidad":"En Stock",
-            "precio": 1500000
+            "precio": 96
         }
     ]
 }
