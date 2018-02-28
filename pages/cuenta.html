@@ -13,62 +13,44 @@
 </head>
 <body onload="cargar();">
 
-<header>
+  <div class="container">
+    	<div class="row">
+    		<div class="col-sm-12">
+    			 <div class= "encabezado">
+						<div class="titulo">
+							CUENTA
+						</div>
+						<div class="logo">
+							<a title="" href="../index.html" ><img class="img-fluid height: auto rounded float-left imgCabecera" src="../img/logo.png" alt="" /></a>
+						</div>
+
+						<div class="cuenta">
+							<a href="../pages/cuenta.html" ><img class="img-fluid height: auto rounded float-right imgCuenta" 
+							src="../img/user5.png" alt="" /></a>
+						</div>
+
+						<div class="espaciado">
+							<h3>Tu mejor opción para compras online</h3>
+						</div>
+        		</div>
+    		</div>
+    	</div>
 
 
-    <div class="encabezado">
-        <div class= "titulo">
-            CUENTA
-        </div>
-
-       <div class="logo">
-            <a title="" href="../index.html"><img class="imgCabecera" src="../img/logo.png" alt="" /></a>
-       </div>
-
-       <div class= "cuenta">
-            <a href="cuenta.html" ><img class="imgCuenta" src="../img/user5.png" alt="" /></a>
-       </div>
-
-        <div class="espaciado">
-          <H3>Tu mejor opción para compras online</H3>
-        </div>
-
-
-      </div>
-</header>
-
-     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-2 col-sm-3 col-12 borde">
-              <div id="menu">
-                 <ul>
+		<div class="row">
+    			<div class="col-sm-4 col-xs-12">  
+				  		<div id="menu">
+                            	<ul>
                                      <li class="nivel1"><a href="producto.html" >Productos</a></li>
-
-
-
                                      <li class="nivel1"><a href="informatica.html" >Informática</a></li>
-
-
-
                                      <li class="nivel1"><a href="electro.html" >Electrodomésticos</a></li>
-
-
-
                                      <li  class="nivel1"><a href="celular.html" >Celulares</a></li>
+                            	</ul>
+                          </div>
+   				</div>
 
 
-
-
-                            </ul>
-              </div>
-
-          </div>
-
-
-
-        <div class="col-lg-10 col-sm-9 col-12 borde">
-
-       
+        <div class="col-sm-8 col-xs-12" >
           <div class="producto">
             <br>
             <table class="tabla-cuenta" border= 1px  id ="tabla"></table>
@@ -149,7 +131,7 @@
 
         var d = '<tr>'+
 
-            '<th>Descripción del Producto</th>'+
+            '<th>Descripción</th>'+
             '<th>Precio</th>'+
             '<th>Cantidad</th>'+
             '<th>Subtotal</th>'+
@@ -248,9 +230,9 @@
 				sessionStorage.removeItem("saldo");
 				sessionStorage.removeItem("total");
 
-				window.alert("Finalizó el test, gracias por su colaboración con el proyecto");
+				window.alert("Gracias por la colaboración con el proyecto");
 
-				window.location="/responsive-design/index.html";
+				window.location="../index.html";
 				
 				
 			}
@@ -260,9 +242,12 @@
 
     </script>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-</body>
  <footer class="footer">
        Marcos Acosta
 
@@ -273,6 +258,9 @@
        Universidad Nacional de Canindeyú
        <br>
 </footer>
+
+</body>
+
 
 <div id="confirmar">
     <div class="popup-contenedor">
