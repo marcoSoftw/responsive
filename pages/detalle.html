@@ -14,131 +14,120 @@
 </head>
 <body onload="leer();">
 
-  <header>
+  <div class="container">
+    	<div class="row">
+    		<div class="col-sm-12">
+    			 <div class= "encabezado">
+						<div class="titulo">
+							DETALLES
+						</div>
+						<div class="logo">
+							<a title="" href="../index.html" ><img class="img-fluid height: auto rounded float-left imgCabecera" src="../img/logo.png" alt="" /></a>
+						</div>
+
+						<div class="cuenta">
+							<a href="../pages/cuenta.html" ><img class="img-fluid height: auto rounded float-right imgCuenta" 
+							src="../img/user5.png" alt="" /></a>
+						</div>
+
+						<div class="espaciado">
+							<a id="detalle2"></a>
+						</div>
+        		</div>
+    		</div>
+    	</div>
 
 
-      <div class="encabezado">
-          <div class= "titulo">
-              DETALLES
-         </div>
-
-       <div class="logo">
-            <a title="" href="../index.html"><img class="imgCabecera" src="../img/logo.png" alt="" /></a>
-       </div>
-
-
-       <div class= "cuenta">
-            <a href="cuenta.html" ><img class="imgCuenta" src="../img/user5.png" alt="" /></a>
-       </div>
-
-
-        <div class="espaciado">
-
-        <a id="detalle2"></a>
-
-        </div>
-
-
-      </div>
-</header>
-
-
- <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-2 col-sm-3 col-12 borde">
-                <div id="menu">
-                    <ul>
+		<div class="row">
+    			<div class="col-sm-4 col-xs-12">  
+				  		<div id="menu">
+                            	<ul>
                                      <li class="nivel1"><a href="producto.html" >Productos</a></li>
-
-
-
                                      <li class="nivel1"><a href="informatica.html" >Informática</a></li>
-
-
-
                                      <li class="nivel1"><a href="electro.html" >Electrodomésticos</a></li>
-
-
-
                                      <li  class="nivel1"><a href="celular.html" >Celulares</a></li>
+                            	</ul>
+                          </div>
+   				</div>
+
+
+	
+    
+    <div class="col-sm-8 col-xs-12" >
+				<div class="producto">
+						<div class="row border border-dark">
+								<div class="img-contenido-detalle col-md-5 .col-xs-12 ">
+									<img class="img-contenido-detalle" src="" id="imagen">
+								</div>
+								<div class="detalle-producto border border-dark col-md-6 .col-xs-12">
+									 <p class="detalle-marca">  MARCA
+										<br>
+										<a id="marca"></a>
+
+										</p>
+										
+										 <p class="detalle-detalle">  DETALLE
+										<br>
+										<a id="detalle"></a>
+
+										</p>
+										
+										<p class="detalle-disponibilidad">  DISPONIBILIDAD
+										<br>
+										<a id="disponibilidad"></a>
+
+										</p>
+										
+										<p class="detalle-precio">  PRECIO
+										<br>
+										<a id="precio"></a>
+
+										</p>
+
+								
+						
+								
+						   			
+						</div>
+					
+				</div>
+								<br>
+								<div class="rowX">
+							   			<div class="botones">
+													  <a  onclick="detalleModal();" class="boton" href="#agregar" >Agregar</a>
+													  <a class="boton2" href="javascript:history.back();" target="_blank">Atras</a>
 
 
 
+							   			</div>
+							   
+							   	</div>
+				</div>
 
-                            </ul>
-            </div>
-
-      </div>
-
-
-<div class="col-lg-10 col-sm-9 col-12 borde">
-     
-      <div class="producto">
-          <table class="tabla-contenido" border= 2px solid valign= "top" >
-              <tr class="fila" >
-
-                       <td width="40%">
-                           <img class="img-contenido-detalle" src="" id="imagen">
-                       </td>
-
-
-                       <td width="60%">
-
-
-                        <p class="detalle-marca">  MARCA
-                        <br>
-                        <a id="marca"></a>
-
-                        </p>
-
-                        <p class="detalle-detalle">  DETALLE
-                        <br>
-                        <a id="detalle"></a>
-
-                        </p>
-
-                        <p class="detalle-disponibilidad">  DISPONIBILIDAD
-                        <br>
-                        <a id="disponibilidad"></a>
-
-                        </p>
-
-
-                        <p class="detalle-precio">  PRECIO
-                        <br>
-                        <a id="precio"></a>
-
-                        </p>
-
-
-
-
-                    </tr>
-
-                   </table>
-
-                    <br>
-                   <div class="botones"  >
-                          
-                           
-                                          <a  onclick="detalleModal();" class="boton" href="#agregar" >Agregar</a>
-			                              <a class="boton2" href="javascript:history.back();" target="_blank">Atras</a>
-
-                            
-                    
-                   </div>
-                   
-
-
+			</div>
         </div>
 
     </div>
+     <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+		<div class="row">
+			 <footer class="footer col-sm-12 col-xs-12">
+						Marcos Acosta
 
-  </div>
+						<br>
+						Rodrigo González
+						<br>
 
-</div>
-
+						Universidad Nacional de Canindeyú
+						<br>
+				</footer>
+		</div>
 
 </body>
 
@@ -300,25 +289,25 @@
 
 <div id="agregar">
     <div class="popup-contenedor2">
-       <h2>Agregar Producto</h2>
+     
 
        <form >    
                  
                 <div>
-					 <h3>Ingrese cantidad</h3>
-
-					<input type="text" align="center"  id="cantidad"  onChange="calculo(this.value, precio2);">
-
+					 <h3>Cantidad</h3>
+					 <input type="number" min="1" max="100" id="cantidad" autofocus onChange="calculo(this.value, precio2);">
+					 
+					 <br>
+					 <br>
 					 <h3>Total</h3>
-
-					<input type="text" align="center" id="totalText" readonly>
+					<input type="text" id="totalText" readonly>
 				</div>
        </form>
                  <br>
 
              <div >
 
-             <input onclick="agregarLista(), $('#agregar, .window').hide()" visibility= "hidden" class="submit1" type="submit" value="Confirmar"  >
+             <input onclick="agregarLista(), $('#agregar, .window').hide()" visibility= "hidden" class="boton" type="submit" value="Confirmar"  >
             
              </div>
              <br>
@@ -327,36 +316,23 @@
     </div>
     
     </div>
+    
+    
 
     <script>
-
-
-
-         function detalleModal(){
-
-                    document.getElementById('detalleModal1').innerHTML = detalle2;
-
-                    document.getElementById('detalleModal2').innerHTML = precio2;
-
-                    console.log("El precio para el calculo es= " + precio2);
-
-            }
-
 
          var list=Array();
 
 
         function agregarLista(){
 
-
-
              var saldo=0;
-            var saldoActual=0;
-            var saldoCargar=0;
+             var saldoActual=0;
+             var saldoCargar=0;
 
 
              saldoActual  = sessionStorage.getItem("saldo");
-            saldoCargar = document.getElementById("totalText").value;
+             saldoCargar = document.getElementById("totalText").value;
 
             if(!saldoActual){
 
@@ -374,7 +350,7 @@
 
                     var saldo = sessionStorage.setItem("saldo", saldoActual);
 
-                          var  totalDisponible=0;
+                    var  totalDisponible=0;
                     var valorDescripcion = detalle2;
                     var valorPrecioUnitario = precio2;
                     var valorCantidad = document.getElementById("cantidad").value;
@@ -384,15 +360,23 @@
             total();
 
             function total () {
+
                  async: true;
 
                   var  totalActual = sessionStorage.getItem("total");
 
-                if(!totalActual){
+				if(valorSubtotal==0){
+					console.log("Subtotal es  " + valorSubtotal);
+					window.alert("No se ingresaron datos validos");
+					window.location="/pages/detalle.html";
+				}else{
+			
+                	if(!totalActual){
 
                     totalActual=0;
                 }
-
+				
+				
                  console.log("El total actual es " + totalActual);
 
                  var totalNuevo  = (parseInt(totalActual) + parseInt(valorSubtotal));
@@ -419,16 +403,19 @@
 
 				function mensaje(){
 
-				window.alert("Se agregó el producto al carrito!");
+								window.alert("Se agregó el producto al carrito!");
+								window.location="/pages/cuenta.html";
 
+							}
+
+                    	}
 					}
-
-                    }
 
                  }
                     else{
 
                         alert("No se puede agregar el producto, consultar la disponibilidad de saldo en la cuenta!");
+						window.location="/pages/detalle.html";
                     }
 
                 }
