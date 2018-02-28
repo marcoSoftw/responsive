@@ -42,14 +42,14 @@
         },
         {
             "img": "5.jpg",
-            "marca":"Huawwei",
+            "marca":"Huawei",
             "detalle":"Huawei P8",
             "disponibilidad":"En Stock",
             "precio": 420
         },
         {
             "img": "6.jpg",
-            "marca":"Moto",
+            "marca":"Lenovo",
             "detalle":"Moto G4 16 gb de almacenamiento interno",
             "disponibilidad":"En Stock",
             "precio": 380

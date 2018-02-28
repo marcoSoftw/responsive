@@ -5,7 +5,7 @@
             "marca": "Apple",
             "detalle": "Iphone 6 con 64gb de memoria interna",
             "disponibilidad": "En Stock",
-            "precio": 2000000
+            "precio": 200
             
         },
 		{
@@ -38,7 +38,7 @@
             "marca":"HP",
             "detalle":"Impresora HP Multifuncion con gran calidad en copias",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 88
         },
         {
             "img": "5.jpg",
@@ -74,7 +74,7 @@
             "marca":"HP",
             "detalle":"Notebook HP X360 15-BK157CL Intel Core i5 2.5GHz / Memória 8GB / HD 500GB + SSD 8GB / 15.6 / Windows 10",
             "disponibilidad":"En Stock",
-            "precio": 20000
+            "precio": 592
         }
     ]
 }
