@@ -1,19 +1,13 @@
 body{
-  margin: 0px;
-  background-color: azure  ;
-}
+  margin: 0;
 
 
-.header{
-  display: flex;
-  flex-flow: column;
 }
 
 
 .titulo{
        padding-top: 20px;
        height: 100px;
-       width: 100%;
 
        font-weight: bold;
        text-align: center;
@@ -47,7 +41,7 @@ body{
 
 
 .espaciado{
-   padding-top: 40px;
+   padding-top: 30px;
    text-align: center;
    text-decoration: inherit;
    background-color: dimgrey;
@@ -66,27 +60,12 @@ body{
     font-weight: bold;
     text-align: center;
     background-color: #369;
-    
-    width: 100%;
 
-    display: flex;
-    flex-flow: column;
+
 
 
 }
 
-.contenido{
-    width: 100%;
-    display: table;
-   
-}
-
-.menu-contenido{
-  
-  background-color: #366;
-
-
-}
 
 
 #menu{
@@ -124,16 +103,13 @@ body{
     color: #000;
 
 }
-
 .producto{
-
-    width: 1%;
-    height: 800px;
-    display: table-cell;
-     
-
-
+	margin-top: 15px;
+	MARGIN-RIGHT: 15PX;
+	margin-left: 15PX;
 }
+
+
 .precio{
 	padding: 0;
 	background-color: orange;
@@ -144,28 +120,13 @@ body{
 }
 
 .img-contenido{
-    
-    width: 150px;
 	height: 150px;
+	
 }
-.fila {
-    text-align: center;
-
+.iten{
+	
+	text-align: center;
 }
-.tabla-contenido{
-   
-	margin-left: 10px;
-    width: 95%;
-	font-size: 16px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 2px solid black;
-	border-spacing: 0;
-    background-color: white;
-
-
-}
-
 
 .link{
 
@@ -177,14 +138,11 @@ body{
 }
 
 
-
-
-
 #agregar {
 
    visibility: hidden;
    opacity: 0;
-   margin-top: -800px;
+   margin-top: -1600px;
 
 
 }
@@ -216,7 +174,7 @@ body{
 
    visibility: hidden;
    opacity: 0;
-   margin-top: -800px;
+   margin-top: -1200px;
 
 
 }
@@ -248,16 +206,17 @@ body{
    transition:all 1s;
 }
 
+
 .popup-contenedor {
     
    position: relative;
    margin:7% auto;
-   background-color: azure ;
+   background-color: #399;
    color:#333;
-   width:50%;
+   width: 80%;
    max-width: 555px;
-    text-align: center;
-    font-size: 45px;
+   text-align: center;
+   font-size: 45px;
 
 }
 
@@ -266,15 +225,41 @@ body{
    position: relative;
    margin:7% auto;
    padding-top: 20px;
-   background-color: skyblue;
+   background-color: #399;
    color:#333;
-   width:50%;
+   width:80%;
    max-width: 555px;
-    text-align: center;
-    font-size: 35px;
-    
-    min-width: 525px;
+   text-align: center;
+   font-size: 28px;
    
+}
+
+ input{
+	 
+  	 padding-top: 10px;
+  	 padding-bottom: 10px;
+	 text-align: center;
+	 font-size: 28px;
+	 margin-top: -60px;
+	 
+}
+ input#totalText{
+	 color: oldlace; 
+	 background-color: #399;
+	 border: 0;
+	 font-size: 42px;
+	 width: 185px;
+	 
+}
+
+.popup-contenedor2 h3{
+	margin-bottom: 40px;
+	
+}
+
+.cantidad{
+	font-size: 30px;
+	
 }
 
 a.popup-cerrar {
@@ -295,21 +280,18 @@ a.popup-cerrar {
 }
 
 .img-contenido-detalle{
-    height: 350px;
+    height: 250px;
+	margin:auto;
 }
 
-
-
-
-.detalle-cabecera{
-    padding: 1em;
-    text-align: left;
-    background-color: black;
+.detalle-producto{
+	margin: 0;
+	padding: 0;
 }
 
 .detalle-marca{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     padding: 1em;
     text-align: center;
@@ -320,7 +302,7 @@ a.popup-cerrar {
 }
 .detalle-detalle{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     padding: 1em;
     text-align: center;
@@ -331,7 +313,7 @@ a.popup-cerrar {
 }
 .detalle-disponibilidad{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     padding: 1em;
     text-align: center;
@@ -341,7 +323,7 @@ a.popup-cerrar {
 }
 .detalle-precio{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     padding: 1em;
     text-align: center;
@@ -426,7 +408,9 @@ text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
 
 
 }
-
+ a.botonConfirmar, a.boton5 {
+	text-decoration: none;
+}
 #detalleModal1{
     font-size: 25px;
 
@@ -480,360 +464,212 @@ text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
 }
 
 #totalTexto{
-    font-size: 28px;
+    font-size: 24px;
 }
 #total{
     text-align: right;
-    font-size: 28px;
+    font-size: 24px;
     color: green;
 }
 
 #saldoTexto{
 
-    font-size: 28px;
+    font-size: 24px;
 
 }
 #saldo{
     text-align: right;
-    font-size: 28px;
+    font-size: 24px;
     color: green;
 
 }
 #saldoTotalTexto{
-       font-size: 28px;
+       font-size: 24px;
 
 }
 #saldoTotal{
     text-align: right;
-    font-size: 28px;
+    font-size: 24px;
     color: green;
 	border-right: 0px;
 }
-#saldoCabecera{
-	margin-left: 80%;
+
+@media screen and (max-width: 1200px) {
+	.img-contenido-detalle {
+	 width: 100%;
+	height: 100%;
+	
+	}
+}
+@media screen and (max-width: 990px) {
+	.img-contenido-detalle {
+	 width: 100%;
+	height: 25%;
+	
+	}
 
 }
 
+@media screen and (max-width: 768px) {
+	.titulo{
+		 font-size: 38px;
+	} 
+	
+	.espaciado h3{
+		font-size: 24px;
+	}
+	.imgCuenta {
+		padding-top: 12px;
+		margin-right: 2%;
+       width: 80px;
+     }
+	 .imgCabecera {
+		 padding-top: 10px;
+		 margin-left: 2%;
+       	width: 80px;
+     }
+	.boton{
+		margin-left: 0px;
+	}
+	.boton2{
+		margin-left: 0px;
+	}
+}
 
 
-
-
-
-
-
-
-@media screen and (max-width: 870px) { 
-  body{
-    height: 870px;
-    margin: 0px;
+@media screen and (max-width: 576px) {
+	.container{
+	
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+   
+	.titulo{
+		height: 80px;
+		font-size: 26px;
+	} 
+	.espaciado h3{
+		font-size: 18px;
+	}
+	.imgCuenta {
+		padding-top: 23px;
+		margin-right: 2%;
+       width: 80px;
+     }
+	 .imgCabecera {
+		 padding-top: 21px;
+		 margin-left: 2%;
+       	width: 78px;
+     }
+	
+	
+	#totalTexto, #total{
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	#saldoTexto, #saldo{
+		font-size: 20px;
+		text-align: center;
+	}
+	#saldoTotalTexto, #saldoTotal{
+		text-align: center;
+		font-size: 20px;
+	}
+	.botones{
+		margin-bottom: 250px;
+	}
+	.tabla-cuenta {
+    
+    font-size: 16px;
   }
-
-  
-
-.titulo{
-  font-size: 32px;
-}
-    
-.espaciado{
-
-  height: 60px;
-  padding-top: 8px;
-  font-size: 12px;
-
-
-}
-    
-    
-@media screen and (max-width: 710px) { 
-
-.tabla-contenido tr td{
-  display: block;
-  width: 100%;
-  text-align: center;
-  
-}
-    
-.menu  a{
-	
- font-size: 16px;
-
-
-}
-.producto {
-    display: table;
-    width: 100%;
+	.img-contenido-detalle {
+     width: 88%;
+	 text-align: center;
    
-  
-
-}
-    
-.tabla-contenido{
-margin: 0;
-width: 100%;
-font-size: 16px;
+	}
+	
+	
+	
 	
 }
-
-.img-contenido{
-    width: auto;
-    height: 160px;
-
-}
-.popup-contenedor {
-    position: relative;
-    margin: 7% auto;
-    color: #333;
-    width: 50%;
-    min-width: 260px;
+@media screen and (max-width: 479px) {
+     /* start of phone styles */
+     /* It's possible to hide the image if the screen becomes too small */
+	
+	
+	body{
+   		padding-right: 0;
+        padding-left: 0; 
+		
+		
+	}
+	.titulo{
+		height: 80px;
+		font-size: 20px;
+	} 
+	.espaciado{
+		height: 60px;
+		font-size: 12px;
+		padding-top: 20px;
+	}
+	.espaciado h3{
+		
+		font-size: 16px;
+	}
+	.imgCuenta {
+		padding-top: 30px;
+		margin-right: 2%;
+       width: 60px;
+     }
+	 .imgCabecera {
+		 padding-top: 28px;
+		 margin-left: 2%;
+       	width: 60px;
+     }
+	.producto {
+    	margin-top: 10px;
+   		margin-left: 0;
+		margin-right: 0;
+	}
+	.tabla-cuenta{
+		width: 100%;
+		margin-left: 0;
+	}
+	.tabla-contenido{
+    	width: 100%;
     
-}
- 
-.popup-contenedor h2, h3 {
-    font-size: 16px;
+	}
+	.tabla-contenido tr td {
+    	display: block;
+   	 	width: 100%;
+		text-align: center
+	}
+	
+	.row {
    
-}
-    
-
-    
-}
-
-
-    
-@media screen and (max-width: 575px) { 
-    
-.titulo{
-  font-size: 26px;
-    padding-top: 20px;
-    height: 80px; 
-}
-    
-.espaciado h3{
-
-  height: 60px;
-  padding-top: 8px;
- 
-
-
-}
-    
-.imgCabecera{
-  width: 70px;
-  margin-top: -75px;
-
-}
-.imgCuenta{
-  height: 70px;
-  width: 74px;
-  margin-top: -75px;
-  margin-left: 80%;
-
-}
-    
-.tabla-contenido{
-margin: auto;
-width: 98%;
-font-size: 14px;
-
-	
-}
-    
-
-.popup-contenedor{
-        
-    padding: 0px;
-    font-size: 25px;
-      
-    }
-    
-.popup-contenedor2 {
-    padding-top: 20px;
-    width: 90%; 
-    min-width: auto; 
-    
-}
-    
-
-.tabla-cuenta{
-   border: 2px solid black;
-   border-spacing: 0;
+    margin-right: 0;
     margin-left: 0;
-    width: 100%;
-    font-size: 16px;
-   text-align: center;
+		text-align: center;
+}
+}
+
+@media screen and (max-width: 380px) {
+     /* start of phone styles */
+     /* It's possible to hide the image if the screen becomes too small */
+	.titulo{
+		height: 80px;
+		font-size: 19px;
+	} 
+	.espaciado h3{
+		font-size: 14px;
+	}
+	.boton {
+   	    padding: 20px;
+	}
+	
 }
 
 
 
-.total_disponible{
-    margin-left: 0;
-    border-spacing: 0;
-    width: 100%;
-    font-size: 16px;
-}
-
-#totalTexto{
-
-    font-size: 20px;
-
-
-}
-#total{
-    text-align: center;
-    font-size: 20px;
-    color: green;
-}
-
-#saldoTexto{
-
-    font-size: 20px;
-
-}
-#saldo{
-    text-align: center;
-    font-size: 20px;
-    color: green;
-
-}
-#saldoTotalTexto{
-       font-size: 20px;
-
-}
-#saldoTotal{
-    text-align: center;
-    font-size: 20px;
-    color: green;
-	border-right: 0px;
-}
-    
-.footer{
-        margin-top: 30px;
-        margin-bottom: 10px;
-}
-
-    
-    
-.borde{
-   
-    padding-right: 1px;
-    padding-left: 1px;
-    padding-bottom: 10px;
-    }
-
-.img-contenido-detalle {
-    height: 200px;
-}
-
-.botonConfirmar{
-    margin-bottom: 10px; 
-    
-}
-    
-
-    }
-    
-    
-    
-@media screen and (max-width: 485px) { 
-    
-.titulo{
-  font-size: 22px;
-    
-}
-    
-.espaciado h3{
-
-  height: 60px;
-  padding-top: 8px;
-  font-size: 18px;
-
-
-}
-
-
-    
-        
-    
-
-}
-    
-    
-@media screen and (max-width: 440px) { 
-    
-.titulo{
-  font-size: 20px;
-    
-}
-.espaciado h3{
-
-
-  font-size: 16px;
-
-
-}
-
-    
-.tabla-contenido p{
-        
-    font-size: 14px;
-    }
-    
-.boton2{
-
-margin-left: 0px;
-    
-    
-}
-    
-    
-
-.popup-contenedor2 h2{
-  
-   font-size: 20px;
-   
-   
-}
-.popup-contenedor2 {
-  
-   font-size: 18px;
-   
-   
-}
-   
-    
-@media screen and (max-width: 360px) { 
-    
-.titulo{
-  font-size: 18px;
-    
-}
-.espaciado h3{
-
-  font-size: 14px;
-
-    }
-    
-.tabla-cuenta{
-
- 
-    font-size: 14px;
-  
-}
-    
-}
-    
- @media screen and (max-width: 350px) { 
-    
-.imgCabecera{
-  width: 50px;
-  margin-top: -68px;
-
-}
-.imgCuenta{
-  width: 50px;
-  height: 52px;
-  margin-top: -69px;
-  margin-left: 80%;
-
-}
-    
-}
