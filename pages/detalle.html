@@ -6,7 +6,6 @@
     <title>Principal</title>
 
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="../js/index.js"></script>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <script language="javascript" src="../js/jquery-3.2.1.min.js"></script>
@@ -14,7 +13,7 @@
 </head>
 <body onload="leer();">
 
-  <div class="container">
+  <div class="container-fluid">
     	<div class="row">
     		<div class="col-sm-12">
     			 <div class= "encabezado">
@@ -39,7 +38,7 @@
 
 
 		<div class="row">
-    			<div class="col-sm-4 col-xs-12">  
+    			<div class="col-sm-2 col-xs-12">  
 				  		<div id="menu">
                             	<ul>
                                      <li class="nivel1"><a href="producto.html" >Productos</a></li>
@@ -53,7 +52,7 @@
 
 	
     
-    <div class="col-sm-8 col-xs-12" >
+    <div class="col-sm-10 col-xs-12" >
 				<div class="producto">
 						<div class="row border border-dark">
 								<div class="img-contenido-detalle col-md-5 .col-xs-12 ">
@@ -368,7 +367,7 @@
 				if(valorSubtotal==0){
 					console.log("Subtotal es  " + valorSubtotal);
 					window.alert("No se ingresaron datos validos");
-					window.location="/responsive/pages/detalle.html";
+					window.location="/pages/detalle.html";
 				}else{
 			
                 	if(!totalActual){
@@ -404,7 +403,7 @@
 				function mensaje(){
 
 								window.alert("Se agregó el producto al carrito!");
-								
+								window.location="/pages/cuenta.html";
 
 							}
 
@@ -415,7 +414,7 @@
                     else{
 
                         alert("No se puede agregar el producto, consultar la disponibilidad de saldo en la cuenta!");
-						window.location="/responsive/pages/detalle.html";
+						window.location="/pages/detalle.html";
                     }
 
                 }

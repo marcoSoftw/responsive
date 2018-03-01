@@ -5,7 +5,6 @@
     <title>Principal</title>
 
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="../js/index.js"></script>
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <script language="javascript" src="../js/jquery-3.2.1.min.js"></script>
@@ -13,7 +12,7 @@
 </head>
 <body onload="cargar();">
 
-  <div class="container">
+  <div class="container-fluid">
     	<div class="row">
     		<div class="col-sm-12">
     			 <div class= "encabezado">
@@ -38,7 +37,7 @@
 
 
 		<div class="row">
-    			<div class="col-sm-4 col-xs-12">  
+    			<div class="col-sm-2 col-xs-12">  
 				  		<div id="menu">
                             	<ul>
                                      <li class="nivel1"><a href="producto.html" >Productos</a></li>
@@ -50,7 +49,7 @@
    				</div>
 
 
-        <div class="col-sm-8 col-xs-12" >
+        <div class="col-sm-10 col-xs-12" >
           <div class="producto">
             <br>
             <table class="tabla-cuenta" border= 1px  id ="tabla"></table>
@@ -232,7 +231,7 @@
 
 				window.alert("Gracias por la colaboración con el proyecto");
 
-				window.location="/responsive/index.html";
+				window.location="../index.html";
 				
 				
 			}
@@ -247,17 +246,22 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
- <footer class="footer">
-       Marcos Acosta
+	<div class="row">
+			 <footer class="footer col-sm-12 col-xs-12">
+						Marcos Acosta
 
-       <br>
-       Rodrigo González
-       <br>
+						<br>
+						Rodrigo González
+						<br>
 
-       Universidad Nacional de Canindeyú
-       <br>
-</footer>
+						Universidad Nacional de Canindeyú
+						<br>
+				</footer>
+		</div>
 
 </body>
 
